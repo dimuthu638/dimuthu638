@@ -5,6 +5,8 @@ on:
   push:
     branches: [ main, master ]
   workflow_dispatch:  # Allows manual triggering
+permissions:
+  contents: write  # Grants write access to repo contents (for committing SVGs)
 jobs:
   metrics:
     runs-on: ubuntu-latest
