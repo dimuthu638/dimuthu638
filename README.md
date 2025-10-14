@@ -2,6 +2,9 @@
 
 ![Full-year GitHub calendar](./metrics.plugin.isocalendar.fullyear.svg)
 
+## Repository Introduction (Metrics Repo)
+![Repository Introduction](https://github.com/dimuthu638/dimuthu638/blob/main/metrics.plugin.introduction.repository.svg)
+
 
 **dimuthu638/dimuthu638** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
