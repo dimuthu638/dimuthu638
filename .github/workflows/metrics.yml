@@ -1,4 +1,4 @@
-name: Full-year calendar
+name: Metrics for Profile
 on:
   schedule:
     - cron: '0 0 * * 0'  # Runs every Sunday at midnight UTC
@@ -6,9 +6,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:  # Allows manual triggering
 permissions:
-  contents: write  # Grants write access to repo contents (for committing SVGs)
+  contents: write  # Grants write access to repo contents for committing SVGs
 jobs:
-  metrics:
+  full-year-calendar:
     runs-on: ubuntu-latest
     steps:
       - name: Generate full-year ISO calendar
@@ -20,3 +20,15 @@ jobs:
           user: dimuthu638
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+  repository-introduction:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate repository introduction
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.repository.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: repository
+          repo: metrics
+          base: header
+          plugin_introduction: yes
