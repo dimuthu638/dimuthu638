@@ -6,7 +6,7 @@ on:
     branches: [ main, master ]
   workflow_dispatch:  # Allows manual triggering
 permissions:
-  contents: write  # Grants write access to repo contents for committing SVGs
+  contents: write  # Grants write access for committing SVGs
 jobs:
   full-year-calendar:
     runs-on: ubuntu-latest
