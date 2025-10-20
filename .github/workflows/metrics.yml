@@ -29,6 +29,6 @@ jobs:
           filename: metrics.plugin.introduction.repository.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
-          repo: lowlighter/metrics  # Explicitly targets the Metrics repo
+          repo: lowlighter/metrics
           base: header
           plugin_introduction: yes
