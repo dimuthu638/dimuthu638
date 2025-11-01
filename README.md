@@ -1,21 +1,24 @@
-## Hi there 👋
+# Hi there 👋, I'm Dimuthu
 
-![Full-year GitHub calendar](./metrics.plugin.isocalendar.fullyear.svg)
+<!--
+**dimuthu638/dimuthu638** is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
+-->
 
-## Repository Introduction (Metrics Repo)
-![Repository Introduction](https://github.com/dimuthu638/dimuthu638/blob/main/metrics.plugin.introduction.repository.svg)
-
-
-**dimuthu638/dimuthu638** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+## About Me
+<!-- Add a brief introduction about yourself -->
+- 🔭 I'm currently working on ...
+- 🌱 I'm currently learning ...
+- 👯 I'm looking to collaborate on ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
+## GitHub Stats
+![Most Used Languages](https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.languages.svg)
+![Calendar](https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.isocalendar.fullyear.svg)
+
+<!-- You can add more sections like:
+- Projects
+- Skills
+- Contributions
+- Blog posts
+-->
