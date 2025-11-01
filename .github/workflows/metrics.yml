@@ -34,16 +34,14 @@ jobs:
           user: dimuthu638
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-  activity:
+  organization:
     runs-on: ubuntu-latest
     steps:
-      - name: Recent activity charts
+      - name: Organization introduction
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.habits.charts.svg
+          filename: metrics.plugin.introduction.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          config_timezone: Europe/Paris
+          user: github
+          base: header
+          plugin_introduction: yes
