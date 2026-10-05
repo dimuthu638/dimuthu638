@@ -20,6 +20,7 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
+          plugin_languages_skipped: dimuthu638/dimuthu638
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
