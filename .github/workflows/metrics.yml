@@ -8,10 +8,10 @@ on:
 permissions:
   contents: write  # Grants write access for committing SVGs
 jobs:
-  full-year-calendar:
+  languages-activity:
     runs-on: ubuntu-latest
     steps:
-      - name: Most used
+      - name: Generate language activity
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
@@ -37,3 +37,17 @@ jobs:
           user: dimuthu638
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate recent coding habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.charts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: dimuthu638
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          plugin_habits_skipped: dimuthu638/dimuthu638
