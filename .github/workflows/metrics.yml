@@ -16,8 +16,10 @@ jobs:
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: dimuthu638
           base: ""
           plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot

@@ -17,14 +17,23 @@
 
 ## GitHub Stats & Activity
 
-### 📊 Most Used Languages
-![Most Used Languages](https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.languages.svg)
-
-### 📅 Contribution Calendar
-![Calendar](https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.isocalendar.fullyear.svg)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>📊 Languages Activity</h3>
+      <img src="https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.languages.svg" alt="Most used and recently used programming languages" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <h3>📅 Contribution Calendar</h3>
+      <img src="https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.isocalendar.fullyear.svg" alt="Full-year GitHub contribution calendar" width="100%">
+    </td>
+  </tr>
+</table>
 
 ### 📈 Activity Charts
-![Activity Charts](https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.habits.charts.svg)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/dimuthu638/dimuthu638/main/metrics.plugin.habits.charts.svg" alt="GitHub activity charts" width="480">
+</div>
 
 <!-- You can add more sections like:
 ## Projects
